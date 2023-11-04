@@ -19,7 +19,7 @@ esp_adc_cal_characteristics_t adc_chars;
 // Battery measurement parameters
 const float batteryMaxVoltage = 4.2; // Maximum voltage of your battery
 const float batteryMinVoltage = 3.2; // Minimum voltage of your battery when it's considered empty
-const float voltageMultiplier = 7.26; // Voltage divider multiplier
+const float voltageMultiplier = 5.26; // Voltage divider multiplier
 
 // Function prototype for calculateBatteryPercentage
 int calculateBatteryPercentage(float voltage);
