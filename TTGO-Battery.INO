@@ -43,7 +43,7 @@ void setup() {
 
 void drawBatteryIcon(int percentage) {
   // Define the size and position of the battery icon
-  int x = 10; // X position of the battery icon
+  int x = 170; // X position of the battery icon
   int y = 10; // Y position of the battery icon
   int width = 40; // Width of the battery icon
   int height = 20; // Height of the battery icon
